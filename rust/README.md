@@ -3,6 +3,9 @@
 This branch starts an incremental Rust port of the PC-side Stadiacast receiver.
 It is not controller firmware, a working Rust receiver, or a demonstrated latency improvement.
 The Python receiver remains the interoperability reference.
+The deliverable is a standalone Rust implementation: the server and PC clients
+must not invoke or embed the Python receiver at runtime. Python is only a reference
+and, during development, an optional integration-test peer.
 
 Linux is the primary supported target. The long-term product is a headless,
 long-running server, with output adapters separated from controller sessions.

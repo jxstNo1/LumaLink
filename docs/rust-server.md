@@ -2,6 +2,8 @@
 
 ## Requirements
 
+- Rewrite the server and PC clients in Rust, with no Python runtime dependency,
+  embedded Python receiver, or Python subprocess wrapper in the final product.
 - Linux is the primary platform for builds, tests, deployment, and performance work.
 - Run as a persistent, headless server; no desktop session, browser, or GUI is required.
 - A central server on the local network assigns controllers to individual PCs.
