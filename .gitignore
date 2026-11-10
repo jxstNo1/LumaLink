@@ -28,3 +28,6 @@ certs/*
 .idea/
 .vscode/
 .DS_Store
+
+# Rust build output
+/rust/target/
